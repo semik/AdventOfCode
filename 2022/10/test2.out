@@ -1,0 +1,246 @@
+c=  0, x=  1, buf=0 [addx 15     ] c=  1, x=  1, input=145, buf=1
+c=  1, x=  1, buf=1 -------------- c=  2, x= 16, input=145, buf=0
+c=  2, x= 16, buf=0 [addx -11    ] c=  3, x= 16, input=144, buf=1
+c=  3, x= 16, buf=1 -------------- c=  4, x=  5, input=144, buf=0
+c=  4, x=  5, buf=0 [addx 6      ] c=  5, x=  5, input=143, buf=1
+c=  5, x=  5, buf=1 -------------- c=  6, x= 11, input=143, buf=0
+c=  6, x= 11, buf=0 [addx -3     ] c=  7, x= 11, input=142, buf=1
+c=  7, x= 11, buf=1 -------------- c=  8, x=  8, input=142, buf=0
+c=  8, x=  8, buf=0 [addx 5      ] c=  9, x=  8, input=141, buf=1
+c=  9, x=  8, buf=1 -------------- c= 10, x= 13, input=141, buf=0
+c= 10, x= 13, buf=0 [addx -1     ] c= 11, x= 13, input=140, buf=1
+c= 11, x= 13, buf=1 -------------- c= 12, x= 12, input=140, buf=0
+c= 12, x= 12, buf=0 [addx -8     ] c= 13, x= 12, input=139, buf=1
+c= 13, x= 12, buf=1 -------------- c= 14, x=  4, input=139, buf=0
+c= 14, x=  4, buf=0 [addx 13     ] c= 15, x=  4, input=138, buf=1
+c= 15, x=  4, buf=1 -------------- c= 16, x= 17, input=138, buf=0
+c= 16, x= 17, buf=0 [addx 4      ] c= 17, x= 17, input=137, buf=1
+c= 17, x= 17, buf=1 -------------- c= 18, x= 21, input=137, buf=0
+c= 18, x= 21, buf=0 [noop        ] c= 19, x= 21, input=136, buf=0
+c= 19, x= 21, buf=0 [addx -1     ] c= 20, x= 21, input=135, buf=1
+>> SIGNAL = 420 (c=20, x=21, added 420)
+c= 20, x= 21, buf=1 -------------- c= 21, x= 20, input=135, buf=0
+c= 21, x= 20, buf=0 [addx 5      ] c= 22, x= 20, input=134, buf=1
+c= 22, x= 20, buf=1 -------------- c= 23, x= 25, input=134, buf=0
+c= 23, x= 25, buf=0 [addx -1     ] c= 24, x= 25, input=133, buf=1
+c= 24, x= 25, buf=1 -------------- c= 25, x= 24, input=133, buf=0
+c= 25, x= 24, buf=0 [addx 5      ] c= 26, x= 24, input=132, buf=1
+c= 26, x= 24, buf=1 -------------- c= 27, x= 29, input=132, buf=0
+c= 27, x= 29, buf=0 [addx -1     ] c= 28, x= 29, input=131, buf=1
+c= 28, x= 29, buf=1 -------------- c= 29, x= 28, input=131, buf=0
+c= 29, x= 28, buf=0 [addx 5      ] c= 30, x= 28, input=130, buf=1
+c= 30, x= 28, buf=1 -------------- c= 31, x= 33, input=130, buf=0
+c= 31, x= 33, buf=0 [addx -1     ] c= 32, x= 33, input=129, buf=1
+c= 32, x= 33, buf=1 -------------- c= 33, x= 32, input=129, buf=0
+c= 33, x= 32, buf=0 [addx 5      ] c= 34, x= 32, input=128, buf=1
+c= 34, x= 32, buf=1 -------------- c= 35, x= 37, input=128, buf=0
+c= 35, x= 37, buf=0 [addx -1     ] c= 36, x= 37, input=127, buf=1
+c= 36, x= 37, buf=1 -------------- c= 37, x= 36, input=127, buf=0
+c= 37, x= 36, buf=0 [addx -35    ] c= 38, x= 36, input=126, buf=1
+c= 38, x= 36, buf=1 -------------- c= 39, x=  1, input=126, buf=0
+c= 39, x=  1, buf=0 [addx 1      ] c= 40, x=  1, input=125, buf=1
+c= 40, x=  1, buf=1 -------------- c= 41, x=  2, input=125, buf=0
+c= 41, x=  2, buf=0 [addx 24     ] c= 42, x=  2, input=124, buf=1
+c= 42, x=  2, buf=1 -------------- c= 43, x= 26, input=124, buf=0
+c= 43, x= 26, buf=0 [addx -19    ] c= 44, x= 26, input=123, buf=1
+c= 44, x= 26, buf=1 -------------- c= 45, x=  7, input=123, buf=0
+c= 45, x=  7, buf=0 [addx 1      ] c= 46, x=  7, input=122, buf=1
+c= 46, x=  7, buf=1 -------------- c= 47, x=  8, input=122, buf=0
+c= 47, x=  8, buf=0 [addx 16     ] c= 48, x=  8, input=121, buf=1
+c= 48, x=  8, buf=1 -------------- c= 49, x= 24, input=121, buf=0
+c= 49, x= 24, buf=0 [addx -11    ] c= 50, x= 24, input=120, buf=1
+c= 50, x= 24, buf=1 -------------- c= 51, x= 13, input=120, buf=0
+c= 51, x= 13, buf=0 [noop        ] c= 52, x= 13, input=119, buf=0
+c= 52, x= 13, buf=0 [noop        ] c= 53, x= 13, input=118, buf=0
+c= 53, x= 13, buf=0 [addx 21     ] c= 54, x= 13, input=117, buf=1
+c= 54, x= 13, buf=1 -------------- c= 55, x= 34, input=117, buf=0
+c= 55, x= 34, buf=0 [addx -15    ] c= 56, x= 34, input=116, buf=1
+c= 56, x= 34, buf=1 -------------- c= 57, x= 19, input=116, buf=0
+c= 57, x= 19, buf=0 [noop        ] c= 58, x= 19, input=115, buf=0
+c= 58, x= 19, buf=0 [noop        ] c= 59, x= 19, input=114, buf=0
+c= 59, x= 19, buf=0 [addx -3     ] c= 60, x= 19, input=113, buf=1
+>> SIGNAL = 1560 (c=60, x=19, added 1140)
+c= 60, x= 19, buf=1 -------------- c= 61, x= 16, input=113, buf=0
+c= 61, x= 16, buf=0 [addx 9      ] c= 62, x= 16, input=112, buf=1
+c= 62, x= 16, buf=1 -------------- c= 63, x= 25, input=112, buf=0
+c= 63, x= 25, buf=0 [addx 1      ] c= 64, x= 25, input=111, buf=1
+c= 64, x= 25, buf=1 -------------- c= 65, x= 26, input=111, buf=0
+c= 65, x= 26, buf=0 [addx -3     ] c= 66, x= 26, input=110, buf=1
+c= 66, x= 26, buf=1 -------------- c= 67, x= 23, input=110, buf=0
+c= 67, x= 23, buf=0 [addx 8      ] c= 68, x= 23, input=109, buf=1
+c= 68, x= 23, buf=1 -------------- c= 69, x= 31, input=109, buf=0
+c= 69, x= 31, buf=0 [addx 1      ] c= 70, x= 31, input=108, buf=1
+c= 70, x= 31, buf=1 -------------- c= 71, x= 32, input=108, buf=0
+c= 71, x= 32, buf=0 [addx 5      ] c= 72, x= 32, input=107, buf=1
+c= 72, x= 32, buf=1 -------------- c= 73, x= 37, input=107, buf=0
+c= 73, x= 37, buf=0 [noop        ] c= 74, x= 37, input=106, buf=0
+c= 74, x= 37, buf=0 [noop        ] c= 75, x= 37, input=105, buf=0
+c= 75, x= 37, buf=0 [noop        ] c= 76, x= 37, input=104, buf=0
+c= 76, x= 37, buf=0 [noop        ] c= 77, x= 37, input=103, buf=0
+c= 77, x= 37, buf=0 [noop        ] c= 78, x= 37, input=102, buf=0
+c= 78, x= 37, buf=0 [addx -36    ] c= 79, x= 37, input=101, buf=1
+c= 79, x= 37, buf=1 -------------- c= 80, x=  1, input=101, buf=0
+c= 80, x=  1, buf=0 [noop        ] c= 81, x=  1, input=100, buf=0
+c= 81, x=  1, buf=0 [addx 1      ] c= 82, x=  1, input=99, buf=1
+c= 82, x=  1, buf=1 -------------- c= 83, x=  2, input=99, buf=0
+c= 83, x=  2, buf=0 [addx 7      ] c= 84, x=  2, input=98, buf=1
+c= 84, x=  2, buf=1 -------------- c= 85, x=  9, input=98, buf=0
+c= 85, x=  9, buf=0 [noop        ] c= 86, x=  9, input=97, buf=0
+c= 86, x=  9, buf=0 [noop        ] c= 87, x=  9, input=96, buf=0
+c= 87, x=  9, buf=0 [noop        ] c= 88, x=  9, input=95, buf=0
+c= 88, x=  9, buf=0 [addx 2      ] c= 89, x=  9, input=94, buf=1
+c= 89, x=  9, buf=1 -------------- c= 90, x= 11, input=94, buf=0
+c= 90, x= 11, buf=0 [addx 6      ] c= 91, x= 11, input=93, buf=1
+c= 91, x= 11, buf=1 -------------- c= 92, x= 17, input=93, buf=0
+c= 92, x= 17, buf=0 [noop        ] c= 93, x= 17, input=92, buf=0
+c= 93, x= 17, buf=0 [noop        ] c= 94, x= 17, input=91, buf=0
+c= 94, x= 17, buf=0 [noop        ] c= 95, x= 17, input=90, buf=0
+c= 95, x= 17, buf=0 [noop        ] c= 96, x= 17, input=89, buf=0
+c= 96, x= 17, buf=0 [noop        ] c= 97, x= 17, input=88, buf=0
+c= 97, x= 17, buf=0 [addx 1      ] c= 98, x= 17, input=87, buf=1
+c= 98, x= 17, buf=1 -------------- c= 99, x= 18, input=87, buf=0
+c= 99, x= 18, buf=0 [noop        ] c=100, x= 18, input=86, buf=0
+>> SIGNAL = 3360 (c=100, x=18, added 1800)
+c=100, x= 18, buf=0 [noop        ] c=101, x= 18, input=85, buf=0
+c=101, x= 18, buf=0 [addx 7      ] c=102, x= 18, input=84, buf=1
+c=102, x= 18, buf=1 -------------- c=103, x= 25, input=84, buf=0
+c=103, x= 25, buf=0 [addx 1      ] c=104, x= 25, input=83, buf=1
+c=104, x= 25, buf=1 -------------- c=105, x= 26, input=83, buf=0
+c=105, x= 26, buf=0 [noop        ] c=106, x= 26, input=82, buf=0
+c=106, x= 26, buf=0 [addx -13    ] c=107, x= 26, input=81, buf=1
+c=107, x= 26, buf=1 -------------- c=108, x= 13, input=81, buf=0
+c=108, x= 13, buf=0 [addx 13     ] c=109, x= 13, input=80, buf=1
+c=109, x= 13, buf=1 -------------- c=110, x= 26, input=80, buf=0
+c=110, x= 26, buf=0 [addx 7      ] c=111, x= 26, input=79, buf=1
+c=111, x= 26, buf=1 -------------- c=112, x= 33, input=79, buf=0
+c=112, x= 33, buf=0 [noop        ] c=113, x= 33, input=78, buf=0
+c=113, x= 33, buf=0 [addx 1      ] c=114, x= 33, input=77, buf=1
+c=114, x= 33, buf=1 -------------- c=115, x= 34, input=77, buf=0
+c=115, x= 34, buf=0 [addx -33    ] c=116, x= 34, input=76, buf=1
+c=116, x= 34, buf=1 -------------- c=117, x=  1, input=76, buf=0
+c=117, x=  1, buf=0 [noop        ] c=118, x=  1, input=75, buf=0
+c=118, x=  1, buf=0 [noop        ] c=119, x=  1, input=74, buf=0
+c=119, x=  1, buf=0 [noop        ] c=120, x=  1, input=73, buf=0
+c=120, x=  1, buf=0 [addx 2      ] c=121, x=  1, input=72, buf=1
+c=121, x=  1, buf=1 -------------- c=122, x=  3, input=72, buf=0
+c=122, x=  3, buf=0 [noop        ] c=123, x=  3, input=71, buf=0
+c=123, x=  3, buf=0 [noop        ] c=124, x=  3, input=70, buf=0
+c=124, x=  3, buf=0 [noop        ] c=125, x=  3, input=69, buf=0
+c=125, x=  3, buf=0 [addx 8      ] c=126, x=  3, input=68, buf=1
+c=126, x=  3, buf=1 -------------- c=127, x= 11, input=68, buf=0
+c=127, x= 11, buf=0 [noop        ] c=128, x= 11, input=67, buf=0
+c=128, x= 11, buf=0 [addx -1     ] c=129, x= 11, input=66, buf=1
+c=129, x= 11, buf=1 -------------- c=130, x= 10, input=66, buf=0
+c=130, x= 10, buf=0 [addx 2      ] c=131, x= 10, input=65, buf=1
+c=131, x= 10, buf=1 -------------- c=132, x= 12, input=65, buf=0
+c=132, x= 12, buf=0 [addx 1      ] c=133, x= 12, input=64, buf=1
+c=133, x= 12, buf=1 -------------- c=134, x= 13, input=64, buf=0
+c=134, x= 13, buf=0 [noop        ] c=135, x= 13, input=63, buf=0
+c=135, x= 13, buf=0 [addx 17     ] c=136, x= 13, input=62, buf=1
+c=136, x= 13, buf=1 -------------- c=137, x= 30, input=62, buf=0
+c=137, x= 30, buf=0 [addx -9     ] c=138, x= 30, input=61, buf=1
+c=138, x= 30, buf=1 -------------- c=139, x= 21, input=61, buf=0
+c=139, x= 21, buf=0 [addx 1      ] c=140, x= 21, input=60, buf=1
+>> SIGNAL = 6300 (c=140, x=21, added 2940)
+c=140, x= 21, buf=1 -------------- c=141, x= 22, input=60, buf=0
+c=141, x= 22, buf=0 [addx 1      ] c=142, x= 22, input=59, buf=1
+c=142, x= 22, buf=1 -------------- c=143, x= 23, input=59, buf=0
+c=143, x= 23, buf=0 [addx -3     ] c=144, x= 23, input=58, buf=1
+c=144, x= 23, buf=1 -------------- c=145, x= 20, input=58, buf=0
+c=145, x= 20, buf=0 [addx 11     ] c=146, x= 20, input=57, buf=1
+c=146, x= 20, buf=1 -------------- c=147, x= 31, input=57, buf=0
+c=147, x= 31, buf=0 [noop        ] c=148, x= 31, input=56, buf=0
+c=148, x= 31, buf=0 [noop        ] c=149, x= 31, input=55, buf=0
+c=149, x= 31, buf=0 [addx 1      ] c=150, x= 31, input=54, buf=1
+c=150, x= 31, buf=1 -------------- c=151, x= 32, input=54, buf=0
+c=151, x= 32, buf=0 [noop        ] c=152, x= 32, input=53, buf=0
+c=152, x= 32, buf=0 [addx 1      ] c=153, x= 32, input=52, buf=1
+c=153, x= 32, buf=1 -------------- c=154, x= 33, input=52, buf=0
+c=154, x= 33, buf=0 [noop        ] c=155, x= 33, input=51, buf=0
+c=155, x= 33, buf=0 [noop        ] c=156, x= 33, input=50, buf=0
+c=156, x= 33, buf=0 [addx -13    ] c=157, x= 33, input=49, buf=1
+c=157, x= 33, buf=1 -------------- c=158, x= 20, input=49, buf=0
+c=158, x= 20, buf=0 [addx -19    ] c=159, x= 20, input=48, buf=1
+c=159, x= 20, buf=1 -------------- c=160, x=  1, input=48, buf=0
+c=160, x=  1, buf=0 [addx 1      ] c=161, x=  1, input=47, buf=1
+c=161, x=  1, buf=1 -------------- c=162, x=  2, input=47, buf=0
+c=162, x=  2, buf=0 [addx 3      ] c=163, x=  2, input=46, buf=1
+c=163, x=  2, buf=1 -------------- c=164, x=  5, input=46, buf=0
+c=164, x=  5, buf=0 [addx 26     ] c=165, x=  5, input=45, buf=1
+c=165, x=  5, buf=1 -------------- c=166, x= 31, input=45, buf=0
+c=166, x= 31, buf=0 [addx -30    ] c=167, x= 31, input=44, buf=1
+c=167, x= 31, buf=1 -------------- c=168, x=  1, input=44, buf=0
+c=168, x=  1, buf=0 [addx 12     ] c=169, x=  1, input=43, buf=1
+c=169, x=  1, buf=1 -------------- c=170, x= 13, input=43, buf=0
+c=170, x= 13, buf=0 [addx -1     ] c=171, x= 13, input=42, buf=1
+c=171, x= 13, buf=1 -------------- c=172, x= 12, input=42, buf=0
+c=172, x= 12, buf=0 [addx 3      ] c=173, x= 12, input=41, buf=1
+c=173, x= 12, buf=1 -------------- c=174, x= 15, input=41, buf=0
+c=174, x= 15, buf=0 [addx 1      ] c=175, x= 15, input=40, buf=1
+c=175, x= 15, buf=1 -------------- c=176, x= 16, input=40, buf=0
+c=176, x= 16, buf=0 [noop        ] c=177, x= 16, input=39, buf=0
+c=177, x= 16, buf=0 [noop        ] c=178, x= 16, input=38, buf=0
+c=178, x= 16, buf=0 [noop        ] c=179, x= 16, input=37, buf=0
+c=179, x= 16, buf=0 [addx -9     ] c=180, x= 16, input=36, buf=1
+>> SIGNAL = 9180 (c=180, x=16, added 2880)
+c=180, x= 16, buf=1 -------------- c=181, x=  7, input=36, buf=0
+c=181, x=  7, buf=0 [addx 18     ] c=182, x=  7, input=35, buf=1
+c=182, x=  7, buf=1 -------------- c=183, x= 25, input=35, buf=0
+c=183, x= 25, buf=0 [addx 1      ] c=184, x= 25, input=34, buf=1
+c=184, x= 25, buf=1 -------------- c=185, x= 26, input=34, buf=0
+c=185, x= 26, buf=0 [addx 2      ] c=186, x= 26, input=33, buf=1
+c=186, x= 26, buf=1 -------------- c=187, x= 28, input=33, buf=0
+c=187, x= 28, buf=0 [noop        ] c=188, x= 28, input=32, buf=0
+c=188, x= 28, buf=0 [noop        ] c=189, x= 28, input=31, buf=0
+c=189, x= 28, buf=0 [addx 9      ] c=190, x= 28, input=30, buf=1
+c=190, x= 28, buf=1 -------------- c=191, x= 37, input=30, buf=0
+c=191, x= 37, buf=0 [noop        ] c=192, x= 37, input=29, buf=0
+c=192, x= 37, buf=0 [noop        ] c=193, x= 37, input=28, buf=0
+c=193, x= 37, buf=0 [noop        ] c=194, x= 37, input=27, buf=0
+c=194, x= 37, buf=0 [addx -1     ] c=195, x= 37, input=26, buf=1
+c=195, x= 37, buf=1 -------------- c=196, x= 36, input=26, buf=0
+c=196, x= 36, buf=0 [addx 2      ] c=197, x= 36, input=25, buf=1
+c=197, x= 36, buf=1 -------------- c=198, x= 38, input=25, buf=0
+c=198, x= 38, buf=0 [addx -37    ] c=199, x= 38, input=24, buf=1
+c=199, x= 38, buf=1 -------------- c=200, x=  1, input=24, buf=0
+c=200, x=  1, buf=0 [addx 1      ] c=201, x=  1, input=23, buf=1
+c=201, x=  1, buf=1 -------------- c=202, x=  2, input=23, buf=0
+c=202, x=  2, buf=0 [addx 3      ] c=203, x=  2, input=22, buf=1
+c=203, x=  2, buf=1 -------------- c=204, x=  5, input=22, buf=0
+c=204, x=  5, buf=0 [noop        ] c=205, x=  5, input=21, buf=0
+c=205, x=  5, buf=0 [addx 15     ] c=206, x=  5, input=20, buf=1
+c=206, x=  5, buf=1 -------------- c=207, x= 20, input=20, buf=0
+c=207, x= 20, buf=0 [addx -21    ] c=208, x= 20, input=19, buf=1
+c=208, x= 20, buf=1 -------------- c=209, x= -1, input=19, buf=0
+c=209, x= -1, buf=0 [addx 22     ] c=210, x= -1, input=18, buf=1
+c=210, x= -1, buf=1 -------------- c=211, x= 21, input=18, buf=0
+c=211, x= 21, buf=0 [addx -6     ] c=212, x= 21, input=17, buf=1
+c=212, x= 21, buf=1 -------------- c=213, x= 15, input=17, buf=0
+c=213, x= 15, buf=0 [addx 1      ] c=214, x= 15, input=16, buf=1
+c=214, x= 15, buf=1 -------------- c=215, x= 16, input=16, buf=0
+c=215, x= 16, buf=0 [noop        ] c=216, x= 16, input=15, buf=0
+c=216, x= 16, buf=0 [addx 2      ] c=217, x= 16, input=14, buf=1
+c=217, x= 16, buf=1 -------------- c=218, x= 18, input=14, buf=0
+c=218, x= 18, buf=0 [addx 1      ] c=219, x= 18, input=13, buf=1
+c=219, x= 18, buf=1 -------------- c=220, x= 19, input=13, buf=0
+>> SIGNAL = 13360 (c=220, x=19, added 4180)
+c=220, x= 19, buf=0 [noop        ] c=221, x= 19, input=12, buf=0
+c=221, x= 19, buf=0 [addx -10    ] c=222, x= 19, input=11, buf=1
+c=222, x= 19, buf=1 -------------- c=223, x=  9, input=11, buf=0
+c=223, x=  9, buf=0 [noop        ] c=224, x=  9, input=10, buf=0
+c=224, x=  9, buf=0 [noop        ] c=225, x=  9, input=9, buf=0
+c=225, x=  9, buf=0 [addx 20     ] c=226, x=  9, input=8, buf=1
+c=226, x=  9, buf=1 -------------- c=227, x= 29, input=8, buf=0
+c=227, x= 29, buf=0 [addx 1      ] c=228, x= 29, input=7, buf=1
+c=228, x= 29, buf=1 -------------- c=229, x= 30, input=7, buf=0
+c=229, x= 30, buf=0 [addx 2      ] c=230, x= 30, input=6, buf=1
+c=230, x= 30, buf=1 -------------- c=231, x= 32, input=6, buf=0
+c=231, x= 32, buf=0 [addx 2      ] c=232, x= 32, input=5, buf=1
+c=232, x= 32, buf=1 -------------- c=233, x= 34, input=5, buf=0
+c=233, x= 34, buf=0 [addx -6     ] c=234, x= 34, input=4, buf=1
+c=234, x= 34, buf=1 -------------- c=235, x= 28, input=4, buf=0
+c=235, x= 28, buf=0 [addx -11    ] c=236, x= 28, input=3, buf=1
+c=236, x= 28, buf=1 -------------- c=237, x= 17, input=3, buf=0
+c=237, x= 17, buf=0 [noop        ] c=238, x= 17, input=2, buf=0
+c=238, x= 17, buf=0 [noop        ] c=239, x= 17, input=1, buf=0
+c=239, x= 17, buf=0 [noop        ] c=240, x= 17, input=0, buf=0
