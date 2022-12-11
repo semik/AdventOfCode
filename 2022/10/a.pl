@@ -17,11 +17,12 @@ my $signal = 0;
 
 while ( (scalar(@input) > 0) or (scalar(@buf) > 0) or ($c < max(@cycle)) ) {
     printf "c=%3d, x=%3d, buf=%d ", $c, $x, scalar(@buf);
+    my $add = 0;
 
     if (@buf) {
 	# jsme uprostřed předchozí operace addx
 	my $addx = shift @buf;
-	$x += $addx;
+	$add = $addx;
 	printf '-'x14;
     } else {
 	my $i = shift @input;
@@ -48,6 +49,8 @@ while ( (scalar(@input) > 0) or (scalar(@buf) > 0) or ($c < max(@cycle)) ) {
 
 	print ">> SIGNAL = $signal (c=$c, x=$x, added $s)\n";
     };
+
+    $x += $add;
 };
 
 
